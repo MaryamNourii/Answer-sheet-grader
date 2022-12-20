@@ -330,7 +330,7 @@ class AnswerSheetGrader():
     return self.answer 
 
 def main():
-  asg = AnswerSheetGrader('4.jpg', 800, 700, 235, 0)
+  asg = AnswerSheetGrader('Images\4.jpg', 800, 700, 235, 0)
   asg.pre_processing()
   barcode_inf = asg.find_barcode()
   answers = asg.get_answrs()
